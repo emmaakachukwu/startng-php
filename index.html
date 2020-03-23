@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form {
+            width: 400px;
+            margin: 30px auto;
+            border: 1px solid #888;
+            padding: 15px;
+            
+        }
+
+        input {
+            width: 100%;
+            border: 1px solid #888;
+            margin-bottom: 15px;
+            padding: 5px;
+            box-sizing: border-box;
+        }
+
+        button {
+            border: 1px solid #888;
+            background-color: #fff;
+            padding: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <form action="form.php" method="POST">
+        <label for="username">Username:</label>
+        <br>
+        <input type="text" placeholder="Enter your username" name="username">
+        <label for="first_name">First Name:</label>
+        <br>
+        <input type="text" placeholder="Enter your first name" name="first_name">
+        <br>
+        <label for="last_name">Last Name:</label>
+        <br>
+        <input type="text" placeholder="Enter your last name" name="last_name">
+        <br>
+        <label for="email">Email Address:</label>
+        <br>
+        <input type="email" placeholder="Enter your email address" name="email">
+        <br>
+        <button type="submit" name="submit">Submit</button>
+    </form>
+</body>
+</html>
